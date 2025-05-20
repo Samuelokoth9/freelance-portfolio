@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact | Sammy</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sammy</div>
+            <div class="menu-btn">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./writing.html">Writing</a></li>
+                <li><a href="./web-projects.html">Web</a></li>
+                <li><a href="./photography.html">Photography</a></li>
+                <li><a href="./translation.html">Translation</a></li>
+                <li><a href="./contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="section">
+        <section class="container contact">
+            <h1>Contact Me</h1>
+            <p>Let's connect! Whether it's writing, web development, photography, or translation—I'm ready to
+                collaborate.</p>
+
+            <form action="mailto:samuelouma9871@.com" method="POST" class="contact-form">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required autocomplete="name" />
+
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required autocomplete="email" />
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" required autocomplete="off"></textarea>
+
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+
+
+            <div class="social-links">
+                <p>Or reach out directly:</p>
+                <ul>
+                    <li>Email: <a href="mailto:sammy@example.com">samuelouma9871@.com</a></li>
+                    <li>Instagram: <a href="https://instagram.com/SammyKhang" target="_blank">@SammyKhang</a></li>
+                </ul>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sammy. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>

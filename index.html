@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sammy | Freelance Portfolio</title>
+    <link rel="stylesheet" href="./styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet" />
+</head>
+
+<body>
+    <section id="portfolio" class="portfolio-section">
+        <h2>My Work</h2>
+
+        <div class="portfolio-filters">
+            <button data-filter="all" class="filter-btn active">All</button>
+            <button data-filter="web" class="filter-btn">Web Design</button>
+            <button data-filter="photo" class="filter-btn">Photography</button>
+            <button data-filter="writing" class="filter-btn">Writing</button>
+        </div>
+
+        <div class="portfolio-gallery">
+            <div class="portfolio-item" data-category="web">
+                <img src="/Images/pexels-luis-gomes-166706-546819.jpg" alt="Web Design Project 1">
+                <div class="portfolio-overlay">Web Project 1</div>
+            </div>
+            <div class="portfolio-item" data-category="photo">
+                <img src="/Images/Ber.jpg" alt="Photography 1">
+                <div class="portfolio-overlay">Photography</div>
+            </div>
+            <div class="portfolio-item" data-category="writing">
+                <img src="/Images/pexels-pavel-danilyuk-7055139.jpg" alt="Article 1">
+                <div class="portfolio-overlay">Article</div>
+            </div>
+            <!-- Add more items as needed -->
+        </div>
+    </section>
+
+    <header>
+        <nav class="navbar">
+            <div class="logo">Sammy</div>
+            <div class="menu-btn">&#9776;</div>
+            <ul class="nav-links">
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./writing.html">Writing</a></li>
+                <li><a href="./web-projects.html">Web</a></li>
+                <li><a href="./photography.html">Photography</a></li>
+                <li><a href="./translation.html">Translation</a></li>
+                <li><a href="./contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm Sammy.</h1>
+            <p>I craft words, capture stories, and build for the web.</p>
+            <div class="cta-buttons">
+                <a href="writing.html" class="btn">View My Work</a>
+                <a href="contact.html" class="btn-outline">Hire Me</a>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Sammy. All rights reserved.</p>
+    </footer>
+    <script src="./script.js"></script>
+</body>
+
+</html>
